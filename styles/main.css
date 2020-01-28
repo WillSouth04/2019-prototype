@@ -1,3 +1,20 @@
+body{
+    background: linear-gradient (rgb(51, 156, 94), rgb(51, 156, 94),  rgb(255, 224, 0), rgb(51, 156, 94), rgb(51, 156, 94), rgb(255, 224, 0),rgb(255, 224, 0)
+        background-size: 300% 300%;
+        animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+            background-size: 300% 300%;
+            background-position: 0% 0%;
+    }
+    100% {
+        background-size: 300% 300%;
+        background-position: 0% 0%;
+    }
+}
+
 .social-icon:hover {
     background-color: #339c5e;
 }
