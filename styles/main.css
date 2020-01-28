@@ -1,3 +1,14 @@
+.carousel{
+position: relative;
+animation: movebtn 4s ease;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    position: relative;
+        overflow: hidden;
+    border-radius: 50%;
+}
+
 body{
     background: linear-gradient (rgb(51, 156, 94), rgb(51, 156, 94),  rgb(255, 224, 0), rgb(51, 156, 94), rgb(51, 156, 94), rgb(255, 224, 0),rgb(255, 224, 0)
         background-size: 300% 300%;
