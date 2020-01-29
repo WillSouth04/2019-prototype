@@ -9,7 +9,7 @@ animation: movebtn 4s ease;
 }
 
 body{
-    background: linear-gradient (rgb(51, 156, 94), rgb(51, 156, 94),  rgb(255, 224, 0), rgb(51, 156, 94), rgb(51, 156, 94), rgb(255, 224, 0),rgb(255, 224, 0)
+    background: linear-gradient (rgb(51, 156, 94), rgb(51, 156, 94),  rgb(255, 224, 0), rgb(51, 156, 94), rgb(51, 156, 94), rgb(255, 224, 0),rgb(255, 224, 0));
         background-size: 300% 300%;
         animation: gradient 15s ease infinite;
 }
@@ -20,7 +20,7 @@ body{
             background-position: 0% 0%;
     }
     100% {
-        background-size: 300% 300%;
+        background-size: 600% 600%;
         background-position: 0% 0%;
     }
 }
