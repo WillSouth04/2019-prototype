@@ -6,7 +6,6 @@ animation: movebtn 4s ease;
     width: 1000px;
     position: relative;
         overflow: hidden;
-    border-radius: 75%;
 }
 
 body{
