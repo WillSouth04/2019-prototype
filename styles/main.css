@@ -8,10 +8,27 @@ animation: movebtn 4s ease;
         overflow: hidden;
 }
 
-background{
-    background-image: linear-gradient(to right, red,green,blue);
+.back{
+    background: linear-gradient(red, yellow, green, red, blue, purple);
+    background-size: 600% 600%;
+    animation: gradient 5s ease infinite;
 }
 
+@keyframes gradient{
+    0%{
+        background-size: 300% 300%;
+        background-postion: 0% 0%;
+    }
+
+    50%{
+        background-size: 300% 300%;
+        background-postion: 500% 500%;
+    }
+    100%{
+        background-size: 600% 600%;
+        background-postion: 0% 0%;
+    }
+}
 .social-icon:hover {
     background-color: #339c5e;
 }
