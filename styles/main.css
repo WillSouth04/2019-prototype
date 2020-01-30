@@ -17,11 +17,11 @@ body{
 @keyframes gradient {
     0% {
             background-size: 300% 300%;
-            background-position: 0% 0%;
+            background-position: 0% 100%;
     }
     100% {
         background-size: 600% 600%;
-        background-position: 0% 0%;
+        background-position: 100% 0%;
     }
 }
 
