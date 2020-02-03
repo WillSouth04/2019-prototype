@@ -9,7 +9,7 @@ animation: movebtn 4s ease;
 }
 
 .back{
-    background: linear-gradient(red, yellow, green, red, blue, purple);
+    background: linear-gradient(#339c5e, #ffe000, #339c5e, #ffe000, #339c5e, #ffe000);
     background-size: 600% 600%;
     animation: gradient 5s ease infinite;
 }
